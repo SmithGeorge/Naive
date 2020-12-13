@@ -10,7 +10,7 @@ int main(){
 		std::cerr << "> ";
 		getline(std::cin,user_input,',');
 		opt = stof(user_input);
-		if (opt < 0 || opt > 3) std::cerr << "Don't use operands except for 0,1,2,3";	
+		if (opt < 0 || opt > 3) std::cerr << "Don't use operands except for 0,1,2,3" break;	
 		getline(std::cin,user_input,',');
 		first_number = stof(user_input);
 		getline(std::cin,user_input,'\n');
